@@ -14,9 +14,9 @@ namespace WooCommerceAPIClient
     {
         static void Main(string[] args)
         {
-            const string StoreUrl = "http://leonvalleyflowers.net";
-            const string ConsumerKey = "ck_67a9f46c3ecc6986f4859871cef93958bbabe0ce";
-            const string ConsumerSecret = "cs_dea5e153b32f7905e1e7adc323ff15d3ba8e5b78";
+            const string StoreUrl = "http://example.com";
+            const string ConsumerKey = "ck_67a9f46c3ecc6986fadcv6574859871cef93958bbabe0ce";
+            const string ConsumerSecret = "cs_dea5e15bcg893b32f7905e1e7adc323ffc15d3ba8e5b78";
 
             var api = new WoocommerceApiClient(StoreUrl, ConsumerKey, ConsumerSecret);
             var parameters = new Dictionary<string, string>();
